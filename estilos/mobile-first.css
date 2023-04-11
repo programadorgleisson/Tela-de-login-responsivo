@@ -57,3 +57,14 @@ section > div#imagem {
 section > div#formulario {
     display: block;  
 }
+
+/* FORMULÁRIO */
+div#formulario > h1 {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div#formulario > p {
+    font-size: 0.8em;
+    padding: 10px;
+}

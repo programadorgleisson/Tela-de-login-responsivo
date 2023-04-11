@@ -10,6 +10,10 @@
     <!--DISPOSITIVOS MAIORES-->
     <link rel="stylesheet" href="estilos/midia-queries.css">
     <title>Login</title>
+
+    <!--LINK GOOGLE-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
 </head>
 <body>
     <!--MAIN-->
@@ -28,8 +32,27 @@
 
                 <p>Seja bem vindo(a) novamente. Faça login pra acessar sua conta e poder fazer configurações no seu ambiente</p>
 
-                <form action="login.php" method="post">
+                <form action="login.php" method="post" autocomplete="on">
+                    <!--USUÁRIO-->
 
+                    <div class="campo">
+                        <label for="ilogin"><span class="material-icons">person</span></label>
+                        <input type="email" name="e-mail" id="ilogin" placeholder="seu e-mail" required maxlength="30">
+                    </div>
+
+                    <!--SENHA -->
+                    
+                    <div class="campo">
+                        <label for="isenha"><span class="material-icons">vpn_key</span></label>
+                        <input type="password" name="senha" id="isenha" placeholder="sua senha" required minlength="6">
+                    </div>
+
+                    <!--BOTÕES-->
+                    <input type="submit" value="Entrar">
+                    
+                    <a href="#">
+                        Esqueci minha senha <span class="material-icons">mail</span>
+                    </a>
                 </form>
             </div>
         </section>
