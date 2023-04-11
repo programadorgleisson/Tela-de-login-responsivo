@@ -1,0 +1,54 @@
+/*
+    typical Device Breakpoint
+        -> pequenas telas: 600px
+        -> Celular: 600px a 768px
+        -> Tablet: 768px a 992px
+        -> Desktop: 992px a 1200px
+        -> Telas maiores: +1200px
+*/
+
+/* TABLET */
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #5f2c82, #49a09d);
+    }
+
+    section#login { /* tela login inteira */
+        width: 80vw; /* largura 90% da tela */
+    }
+
+    section#login > div#imagem { /* imagem da tela de login */
+        float: left; /* a imagem vai ficar do lado esquerdo */
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right; /* mostrar formulario a direita */
+        width: 70%;
+    }
+}
+
+/*------------------------------------------------------------------------------------------------*
+
+/* DESKTOP E OUTRAS TELAS */
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top,#49a09d, #5f2c82);
+    }
+
+    section#login { /* tela login inteira */
+        width: 950px; /* largura 90% da tela */
+    }
+
+    section#login > div#imagem { /* imagem da tela de login */
+        float: left; /* a imagem vai ficar do lado esquerdo */
+        width: 50%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right; /* mostrar formulario a direita */
+        width: 50%;
+    }
+}
