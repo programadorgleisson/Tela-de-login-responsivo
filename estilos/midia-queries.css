@@ -14,7 +14,8 @@
     }
 
     section#login { /* tela login inteira */
-        width: 80vw; /* largura 90% da tela */
+        width: 80vw;
+        height: 300px; /* largura 90% da tela */
     }
 
     section#login > div#imagem { /* imagem da tela de login */
@@ -39,6 +40,7 @@
 
     section#login { /* tela login inteira */
         width: 950px; /* largura 90% da tela */
+        height: 350px;
     }
 
     section#login > div#imagem { /* imagem da tela de login */

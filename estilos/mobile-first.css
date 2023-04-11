@@ -70,6 +70,33 @@ div#formulario > p {
 }
 
 
+span.material-icons {
+    color: white;
+}
+
+
+
+input[type=email], input[type=password] {
+    width: 90%;
+    font-size: 1em;
+    width: calc(100% - 30px);
+    height: 100%;
+    background-color: #5ee1de;
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+
+
+div.campo > input:focus-within { /* foco no campo que esta com foco*/
+    border: none;
+    background-color: white;
+}
+/*---------------------------------------------------*/
+
+
+
 /* login e senha */
 form > div.campo {
     display: block;
